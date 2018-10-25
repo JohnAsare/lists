@@ -33,6 +33,11 @@ def changeList(intlist):
     pass
 
 def membersDivisibleBy3(intlist):
+    new_list = []
+    for index, value in enumerate(intlist):
+        if value % 3 == 0:
+            new_list.append(intlist[index])
+    return new_list
     pass
 
 def isReverse(intlist_one, intlist_two):
