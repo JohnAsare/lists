@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+# John Asare
+# 10/25/18 14:44
+
+""" Lab on lists """
+
 def sumOfOdd(intlist):
     pass
 
