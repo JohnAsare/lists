@@ -2,15 +2,20 @@
 
 # John Asare
 # 10/25/18 14:44
-#ertyuiop
-
 
 """ Lab on lists """
 
+
 def sumOfOdd(intlist):
+    total = 0
+    for i in intlist:
+        if i % 2 == 1:
+            total = total + i
+    return total
     pass
 
 def productOfEven(intlist):
+
     pass
 
 def changeList(intlist):
