@@ -25,11 +25,11 @@ def productOfEven(intlist):
 
 
 def changeList(intlist):
-    for i in range(len(intlist)):
-        if intlist[i] % 2 == 1:
-            intlist[i] = (intlist[i] + 5) / 2
+    for index, value in enumerate(intlist):
+        if value % 2 == 1:
+            intlist[index] = (value + 5) / 2
         else:
-            intlist[i] = intlist[i] / 2
+            intlist[index] = value / 2
     pass
 
 def membersDivisibleBy3(intlist):
@@ -37,3 +37,4 @@ def membersDivisibleBy3(intlist):
 
 def isReverse(intlist_one, intlist_two):
     pass
+
