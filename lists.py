@@ -32,6 +32,7 @@ def changeList(intlist):
             intlist[index] = (value / 2)
     pass
 
+
 def membersDivisibleBy3(intlist):
     new_list = []
     for index, value in enumerate(intlist):
@@ -40,6 +41,12 @@ def membersDivisibleBy3(intlist):
     return new_list
     pass
 
+
 def isReverse(intlist_one, intlist_two):
+    if intlist_one[0] == intlist_two[-1]:
+        return True
+    elif intlist_one[0] != intlist_two[-1]:
+        return False
+
     pass
 
