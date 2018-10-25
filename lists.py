@@ -23,7 +23,13 @@ def productOfEven(intlist):
     return total
     pass
 
+
 def changeList(intlist):
+    for i in range(len(intlist)):
+        if intlist[i] % 2 == 1:
+            intlist[i] = (intlist[i] + 5) / 2
+        else:
+            intlist[i] = intlist[i] / 2
     pass
 
 def membersDivisibleBy3(intlist):
