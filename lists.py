@@ -29,7 +29,7 @@ def changeList(intlist):
         if value % 2 == 1:
             intlist[index] = (value + 5) / 2
         else:
-            intlist[index] = value / 2
+            intlist[index] = (value / 2)
     pass
 
 def membersDivisibleBy3(intlist):
