@@ -14,8 +14,13 @@ def sumOfOdd(intlist):
     return total
     pass
 
-def productOfEven(intlist):
 
+def productOfEven(intlist):
+    total = 1
+    for i in intlist:
+        if i % 2 == 0:
+            total = total * i
+    return total
     pass
 
 def changeList(intlist):
